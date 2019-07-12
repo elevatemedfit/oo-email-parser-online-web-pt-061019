@@ -6,7 +6,6 @@ class EmailParser
 
   def initialize(emails)
     @parse = EmailParser.new(emails)
-    @tags = []
     parse
   end
 end
