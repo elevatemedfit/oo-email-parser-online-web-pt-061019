@@ -11,7 +11,8 @@ def initialize(emails)
 end
 
 def parse
-   EmailParser.new(@emails)
-   @emails.to_s
+  tags = []
+   tags = EmailParser.new(@emails)
+
   end
 end
