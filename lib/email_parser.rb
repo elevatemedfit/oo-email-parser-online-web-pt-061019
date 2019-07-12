@@ -4,12 +4,7 @@
 # or whitespace (' ').
 class EmailParser
 
-  def initialize(emails)
-     EmailParser.new(emails)
+  def parse(emails)
+    emails.parse
   end
 end
-#def initialize(str)
-#   @buffer = StringScanner.new(str)
-#   @tags   = []
-#   parse
-# end
