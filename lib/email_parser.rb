@@ -5,8 +5,7 @@
 class EmailParser
 
   def initialize(emails)
-    @parse = EmailParser.new(emails)
-    parse
+     EmailParser.new(emails)
   end
 end
 #def initialize(str)
