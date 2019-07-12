@@ -5,6 +5,8 @@
 class EmailParser
 
   def parse(emails)
-    emails.parse
+    nuemails = []
+    nuemails=emails.parse
+    nuemails
   end
 end
