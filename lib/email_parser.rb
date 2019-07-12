@@ -18,7 +18,7 @@ end
 def parse
 
     parse = EmailParser.new(@emails)
-    parse.emails.split(",")
+    parse.emails.split(", ")
 
   end
 end
