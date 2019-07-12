@@ -18,7 +18,7 @@ end
 def parse
 
     parse = EmailParser.new(@emails)
-    parse.emails.split(", ").uniq
+    parse.emails.split(/, */).uniq  #list.split(/, */)
 
   end
 end
