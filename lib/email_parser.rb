@@ -11,7 +11,7 @@ def initialize(emails)
 end
 
 def parse
-   EmailParser.new(emails).to_a
+   EmailParser.new(emails).to_s
    emails
   end
 end
