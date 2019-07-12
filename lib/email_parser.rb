@@ -11,6 +11,6 @@ def initialize(emails)
 end
 
 def parse
-   EmailParser.new
+   EmailParser.new(emails)
   end
 end
