@@ -12,5 +12,6 @@ end
 
 def parse
    EmailParser.new(emails)
+   emails
   end
 end
