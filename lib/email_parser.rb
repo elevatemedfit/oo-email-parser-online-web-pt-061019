@@ -12,6 +12,6 @@ end
 
 def parse
    EmailParser.new(emails)
-   emails.to_a
+   emails.to_s
   end
 end
