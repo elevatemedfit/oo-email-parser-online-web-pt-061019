@@ -9,6 +9,7 @@ class EmailParser
     @tags = []
     parse
   end
+end
 #def initialize(str)
 #   @buffer = StringScanner.new(str)
 #   @tags   = []
