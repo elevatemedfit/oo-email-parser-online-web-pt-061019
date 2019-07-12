@@ -18,7 +18,7 @@ end
 def parse
 
     parse = EmailParser.new(@emails)
-    parse.emails.split(", ").map(&:strip).uniq  #list.split(/, */)#first,second = "red, blue".split(',').map(&:strip)
+    parse.emails.split(", ").map(" ").uniq  #list.split(/, */)#first,second = "red, blue".split(',').map(&:strip)
 
   end
 end
